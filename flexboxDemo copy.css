@@ -1,0 +1,24 @@
+/* flexboxes are RESPONSIVE and can be used to create even really complex grids */
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.container {
+	display: flex;
+	color: #fff;
+	background-color: #5995DA;
+	padding: 20px 0;
+	justify-content: center;
+
+}
+
+.menu {
+	border: 1px solid white;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	padding-left: 0;
+	font-size: 20px;
+}
