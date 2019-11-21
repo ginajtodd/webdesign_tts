@@ -1,0 +1,29 @@
+
+.container {
+	display: flex;
+	color: white;
+	background-color: black;
+	justify-content: center;
+	padding: 10px;
+	width: 100%;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 0;
+	width: 40%;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:link {
+	text-decoration: none;
+}
